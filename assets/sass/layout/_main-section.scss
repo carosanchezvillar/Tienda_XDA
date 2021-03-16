@@ -1,0 +1,59 @@
+
+
+    img{
+        width: 100%;
+        
+    }
+
+    .section{
+        margin: 2rem;
+        color: $smokyBlack;
+
+        h1{
+            font-family: $oldStandard;
+            font-size: $xxx-large;
+            font-weight: $bold;
+        }
+
+        p{
+            font-family: $raleway;
+            font-size: $medium;
+            font-weight: $regular;
+        }
+    }
+
+    @media (min-width: 992px) {
+        .main{
+            display: flex;
+            flex-direction: row-reverse;
+        }
+
+        img{
+            height: 100%;
+            width: auto;
+        }
+
+        .section-footer{
+            width: 50%;
+            height: 100%;
+        }
+
+        .section{
+            margin: 5rem;
+            color: $smokyBlack;
+    
+            h1{
+                font-family: $oldStandard;
+                font-size: $xxx-large;
+                font-weight: $bold;
+            }
+    
+            p{
+                font-family: $raleway;
+                font-size: $x-large;
+                font-weight: $regular;
+            }
+        }
+     }
+
+

@@ -1,0 +1,41 @@
+footer{
+    background-color: $smokyBlack;
+    color: $white;
+    padding: 0.5rem 0 1rem 2rem;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin: 29% 0 0 0;
+    
+
+    h2{
+        font-size: $xx-large;
+        font-weight: $bold;
+        font-family: $oldStandard;
+        align-items: center;
+    }
+
+    p{
+        font-size: $medium;
+        font-weight: $regular;
+        font-family: $oldStandard;
+    }
+
+}
+
+.newsletter{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.suscribir{
+    color: $smokyBlack;
+    width: auto;
+    height: 3rem;
+    background-color: $white;
+    font-size: $x-small;
+    transform: rotate(90deg);
+    padding: 0.3rem;
+    
+}

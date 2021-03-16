@@ -1,0 +1,16 @@
+input{
+    width: 300px;
+    font-family: $raleway;
+    color: $graniteGray;
+    font-weight: $regular;
+    font-size: $x-small;
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+    
+    input{
+        width: 600px;
+    }
+
+ }

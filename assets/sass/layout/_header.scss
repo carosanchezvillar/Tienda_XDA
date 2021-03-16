@@ -1,0 +1,36 @@
+.navbar{
+    padding: 0 !important;
+
+    .navbar__logo{
+        background-color: $smokyBlack;
+        color: $white;
+        padding: 0.5rem;
+        font-family: $oldStandard;
+        font-size: $large;
+
+    }
+
+    .navbar-brand{
+        margin-left: 1rem;
+    }
+
+    .navbar-toggler{
+        border: none;
+    }
+    
+    .navbar-light{
+        color: $smokyBlack !important;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .nav-link, .nav-item {
+        font-family: $raleway;
+        color: $smokyBlack;
+        font-weight: $bold;
+        padding: 0 1.5rem 0 1.5rem;
+    }
+
+    
+ }
