@@ -48,16 +48,20 @@ footer p {
 .newsletter {
   display: flex;
   justify-content: space-between;
+  position: relative;
 }
 
 .suscribir {
   color: #0c0910;
-  width: auto;
+  width: 138px;
   height: 3rem;
+  position: absolute;
   background-color: #ffffff;
   font-size: 12px;
   transform: rotate(90deg);
   padding: 0.3rem;
+  bottom: 29px;
+  right: -45px;
 }
 
 .navbar {
@@ -80,7 +84,7 @@ footer p {
   color: #0c0910 !important;
 }
 
-@media (min-width: 992px) {
+@media (max-width: 992px) {
   .nav-link, .nav-item {
     font-family: "Raleway", sans-serif;
     color: #0c0910;

@@ -26,16 +26,19 @@ footer{
 .newsletter{
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
 
 
 .suscribir{
     color: $smokyBlack;
-    width: auto;
+    width: 138px;
     height: 3rem;
+    position: absolute;
     background-color: $white;
     font-size: $x-small;
     transform: rotate(90deg);
-    padding: 0.3rem;
-    
+    padding: 0.3rem; 
+    bottom: 29px;
+    right: -45px;   
 }
